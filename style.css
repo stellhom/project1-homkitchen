@@ -104,6 +104,18 @@ z-index: 100;
   width: 20%;
 }
 
+/*for all images taking up 25% of width*/
+.width25percent {
+  height: auto;
+  width: 25%;
+}
+
+/*for all images taking up 50% of width*/
+.width50percent {
+  height: auto;
+  width: 50%;
+}
+
 /* Image grid for 'Nourish your body' section */
 
 .imgbox-left {
