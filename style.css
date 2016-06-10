@@ -237,6 +237,11 @@ li {
   padding: 40px 150px 30px 50px;
 }
 
+.aside-title {
+  color: black;
+  font-size: 26px;
+}
+
 /* unvisited link */
 a:link {
     color: orangered;
