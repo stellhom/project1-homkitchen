@@ -84,8 +84,8 @@ z-index: 100;
   height: auto;
   display: block-inline;
    box-shadow: 0px 0px 15px 0px hsla(240, 2%, 10%, 0.9); /* originally didnt work...but works now since adding in the .img-row:after pseudo class */
-
 }
+
 /* SOLUTION for making dropshadow behind image collage show up, */
 .img-row:after {
   clear: both;
@@ -96,6 +96,12 @@ z-index: 100;
 .img-nogap {
   float: left; /* Removes gap between images */
   /*box-shadow: 0px 0px 15px hsla(240, 2%, 10%, 0.9);*/
+}
+
+/*image width of food images below header - 100 divide by 5 = 20%*/
+.width20percent {
+  height: auto;
+  width: 20%;
 }
 
 /* Image grid for 'Nourish your body' section */
