@@ -4,6 +4,10 @@ body {
   background-image:url('images/scalloppattern.png');
 }
 
+.content {
+  padding-top: 15px;
+}
+
 p,
 ul,
 strong {
